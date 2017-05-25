@@ -49,23 +49,23 @@ def turn_on():
                 sum += burger6.price
 
         elif choice == '2':
-            coke_choice = input('어떤 음료를 고르시겠습니까?\n 1: 콜라\n 2: 스프라이트\n 3: 아메리카노\n 4: 카페라떼\n  선택번호 : ')
-            if coke_choice == '1':
+            beverage_choice = input('어떤 음료를 고르시겠습니까?\n 1: 콜라\n 2: 스프라이트\n 3: 아메리카노\n 4: 카페라떼\n  선택번호 : ')
+            if beverage_choice == '1':
                 print('음료 가격은 {}입니다.'.format(beverage1.price))
                 sum += beverage1.price
-            elif coke_choice == '2':
+            elif beverage_choice == '2':
                 print('음료 가격은 {}입니다.'.format(beverage2.price))
                 sum += beverage2.price
-            elif coke_choice == '3':
+            elif beverage_choice == '3':
                 print('음료 가격은 {}입니다.'.format(beverage3.price))
                 sum += beverage3.price
-            elif coke_choice == '4':
+            elif beverage_choice == '4':
                 print('음료 가격은 {}입니다.'.format(beverage4.price))
                 sum += beverage4.price
-            elif coke_choice == '5':
+            elif beverage_choice == '5':
                 print('음료 가격은 {}입니다.'.format(beverage5.price))
                 sum += beverage5.price
-            elif coke_choice == '6':
+            elif beverage_choice == '6':
                 print('음료 가격은 {}입니다.'.format(beverage6.price))
                 sum += beverage6.price
         elif choice == '3':
